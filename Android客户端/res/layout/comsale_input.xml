@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <include 
+        android:layout_margin="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/appmess"/>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+    <Button 
+        android:id="@+id/up_comstock"
+        android:layout_margin="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Stock"
+        android:background="@drawable/button_selector"/>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/preference_single_item">
+    <Spinner 
+        android:id="@+id/stype"
+        android:layout_margin="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        />
+     <Spinner 
+        android:id="@+id/smodel"
+        android:layout_margin="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        />
+   
+   <EditText 
+       android:id="@+id/quantity"
+       android:layout_width="fill_parent"
+       android:layout_height="55dp"
+       android:inputType="number"
+       android:singleLine="true"
+       android:layout_margin="5dp"
+       android:layout_marginBottom="5dp"
+       android:background="@drawable/bg_edittext"
+       android:hint="Enter the quantity:"/>
+   </LinearLayout>
+   </LinearLayout>
+    
+</LinearLayout>

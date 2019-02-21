@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/preference_single_item"
+                android:orientation="vertical" >
+
+                <Spinner
+                    android:id="@+id/mtype"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp" />
+
+                <Spinner
+                    android:id="@+id/mmodel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp" >
+                </Spinner>
+
+                <Spinner
+                    android:id="@+id/mstuff"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp" >
+                </Spinner>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/preference_single_item"
+                android:orientation="vertical" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:id="@+id/from"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/button_selector"
+                        android:text="From the Date :" />
+
+                    <TextView
+                        android:id="@+id/fd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="From the day:"
+                        android:textColor="@color/blue"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:id="@+id/to"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/button_selector"
+                        android:text="To the Date :" />
+
+                    <TextView
+                        android:id="@+id/td"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:text="To the day:"
+                        android:textColor="@color/blue"
+                        android:textSize="18sp" />
+                </TableRow>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/sprice1"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/bg_edittext"
+                android:hint="Target Amount($)"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/sprice2"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/bg_edittext"
+                android:hint="Target Amount($)"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/smissionnumber"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/bg_edittext"
+                android:hint="Target Quantity"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/salocate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_selector"
+                android:paddingBottom="10dp"
+                android:text="Allocate Special Target"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

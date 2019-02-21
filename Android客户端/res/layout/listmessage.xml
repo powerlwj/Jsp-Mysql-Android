@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:padding="5dp">
+ <LinearLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_weight="0.7"
+     android:orientation="vertical">
+  <TextView
+      android:id="@+id/fromwho" 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="laoshan"
+      android:textSize="20sp"
+      android:textStyle="bold"/> 
+   <TextView 
+       android:id="@+id/date"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="2015-5-21"
+      android:textSize="16sp"
+      android:textStyle="bold"/>   
+ </LinearLayout> 
+ 
+ 
+ <LinearLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_weight="0.3">
+    <TextView
+      android:id="@+id/title" 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="The ZTEN980 on Sale with 999 for ONE day"
+      android:textSize="22sp"
+     android:gravity="center"/>  
+ </LinearLayout> 
+
+</LinearLayout>

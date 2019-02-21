@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/preference_single_item"
+            android:orientation="vertical" >
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:gravity="center"
+                    android:text="My Stuffs:"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/mstuff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="right" />
+            </TableRow>
+</LinearLayout>
+   <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/preference_single_item">
+
+
+            <Button
+                android:id="@+id/setdate"
+                android:layout_width="fill_parent"
+                android:background="@drawable/button_selector"
+                android:text="SetDate"
+                android:layout_height="45dp"
+           android:layout_margin="5dp" />
+
+         <TextView 
+             android:id="@+id/showdates"
+             android:layout_width="fill_parent"
+             android:layout_marginBottom="4dp"
+             android:layout_height="wrap_content"
+             android:text="selected date:"/>
+   </LinearLayout>	
+            
+            <Button
+                android:id="@+id/mview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_selector"
+                android:text="View" />
+        </LinearLayout>
+    
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/amission" />
+
+</LinearLayout>

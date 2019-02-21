@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<TableRow 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="10dp">
+    <TextView 
+        android:id="@+id/tfrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From"
+        android:textColor="@color/blue"
+        android:textSize="12sp"
+        android:layout_weight="1"
+        android:gravity="center"/>
+    <TextView 
+        android:id="@+id/tto"
+         android:textSize="12sp"
+         android:textColor="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To"
+        android:layout_weight="1"
+        android:gravity="center"/>
+    <TextView 
+        android:id="@+id/ttarget"
+         android:textSize="12sp"
+         android:textColor="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity_T"
+        android:layout_weight="1"
+        android:gravity="center"/>
+    <TextView 
+        android:id="@+id/ttargetachieved"
+        android:textColor="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity_A"
+         android:textSize="12sp"
+        android:layout_weight="1"
+        android:gravity="center"/>
+    <TextView 
+        android:id="@+id/ttargetamount"
+         android:textSize="12sp"
+         android:textColor="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount_T"
+        android:layout_weight="1"
+        android:gravity="center"/>
+    <TextView 
+        android:id="@+id/ttargetamountachieved"
+        android:textColor="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount_A"
+         android:textSize="12sp"
+        android:layout_weight="1"
+        android:gravity="center"/>
+</TableRow>    
+
+</LinearLayout>

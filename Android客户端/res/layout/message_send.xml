@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_edittext"
+            android:ems="20"
+            android:hint="Title"
+            android:textSize="24sp" >
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_edittext"
+            android:gravity="top"
+            android:hint="Attation ,please! Send your message from this region."
+            android:lines="8"
+            android:textSize="23dp" />
+    </LinearLayout>
+
+  <Button
+            android:id="@+id/bt_send"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_selector"
+            android:layout_marginTop="10dp"
+            android:text="Send"
+            android:textSize="24sp" />
+
+    
+
+            <!-- 
+         <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="50dp" >
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Message To:"
+                    android:textSize="24sp" />
+
+                <Spinner
+                    android:id="@+id/stuffs"
+                    android:layout_width="200dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1" />
+            </TableRow>   
+            
+             -->
+
+</LinearLayout>

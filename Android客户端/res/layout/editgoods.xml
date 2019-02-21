@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
+        android:hint="type"
+        android:singleLine="true"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/model"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
+        android:hint="model"
+        android:singleLine="true"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/imei"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
+        android:hint="imei"
+        android:editable="false"
+        android:singleLine="true"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
+        android:hint="price"
+        android:singleLine="true"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/solddate"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
+        android:hint="solddate"
+        android:singleLine="true"
+        android:textSize="24sp" />
+    
+    <Button 
+         android:id="@+id/updata"
+         android:text="Update"
+         android:layout_width="fill_parent"
+         android:layout_marginTop="10dp"
+         android:layout_height="wrap_content"
+         android:background="@drawable/button_selector"/>
+    
+    <Button 
+         android:id="@+id/deldata"
+         android:layout_marginTop="10dp"
+         android:text="Delete"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:background="@drawable/button_selector"/>
+
+</LinearLayout>

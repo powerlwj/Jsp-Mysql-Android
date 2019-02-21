@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="type">
+        <item>Choose a type</item>
+        <item>Mobile</item>
+        <item>TV</item>
+        <item>Refriigerator</item>
+        <item>AirConditioner</item>
+        <item>Washer</item>
+        <item>Kitchen Appliance</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="model">
+        <item>I630T</item>
+        <item>X1</item>
+        <item>X68T</item>
+        <item>NANA</item>
+        <item>EG970</item>
+        <item>X8C</item>
+        <item>X6T</item>
+        <item>U8</item>
+        <item>U930</item>
+    </string-array>
+    <string-array name="Mobilebrandname">
+        <item>Hauwei</item>
+        <item>Iphone</item>
+        <item>Meizu</item>
+        <item>小米</item>
+        <item>Lenovo</item>
+        <item>Coolpad</item>
+        <item>oppo</item>
+        <item>vivo</item>
+        <item>SUMUNG</item>
+        <item>HTC</item>
+        <item>乐视</item>
+        <item>ZTE</item>
+    </string-array>
+    <string-array name="TVbrandname">
+        <item>Hauwei</item>
+        <item>Iphone</item>
+        <item>Meizu</item>
+        <item>小米</item>
+        <item>Lenovo</item>
+        <item>Coolpad</item>
+        <item>oppo</item>
+        <item>vivo</item>
+        <item>SUMUNG</item>
+        <item>HTC</item>
+        <item>乐视</item>
+        <item>ZTE</item>
+    </string-array>
+    <string-array name="HUAWEI">
+        <item>P6</item>
+        <item>P7</item>
+        <item>3C</item>
+        <item>P8</item>
+        <item>pro</item>
+        <item>4X</item>
+    </string-array>
+    <string-array name="MEIZU">
+        <item>MX2</item>
+        <item>MX3</item>
+        <item>MX4Pro</item>
+        <item>MNote</item>
+        <item>M4</item>
+        <item>MeiLan</item>
+    </string-array>
+    <string-array name="ZTE">
+        <item>X6T</item>
+        <item>NANA</item>
+        <item>I630</item>
+        <item>Z99</item>
+        <item>N983</item>
+        <item>N900</item>
+    </string-array>
+    <string-array name="HTC">
+        <item>456</item>
+        <item>T1</item>
+        <item>I630</item>
+        <item>One</item>
+        <item>One E8</item>
+        <item>One M9+</item>
+    </string-array>
+    <string-array name="SUMMUNG">
+        <item>XY1</item>
+        <item>X3</item>
+        <item>XML5</item>
+        <item>GALAXY Note 4</item>
+        <item>W2014</item>
+        <item>W2015</item>
+    </string-array>
+    <string-array name="week">
+        <item>Week</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="month">
+        <item>Month</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="year">
+        <item>Year</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+        <item>2031</item>
+        <item>2032</item>
+        <item>2033</item>
+        <item>2034</item>
+        <item>2035</item>
+        <item>2036</item>
+        <item>2037</item>
+        <item>2038</item>
+        <item>2039</item>
+        <item>2040</item>
+        <item>2041</item>
+        <item>2042</item>
+        <item>2043</item>
+        <item>2044</item>
+        <item>2045</item>
+        <item>2046</item>
+        <item>2047</item>
+        <item>2048</item>
+        <item>2049</item>
+        <item>2050</item>
+    </string-array>
+    <string-array name="day">
+        <item>Day</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+</resources>

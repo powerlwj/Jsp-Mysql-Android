@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/b8">
+<LinearLayout 
+    android:paddingTop="10dp"
+    android:layout_width="fill_parent"
+    android:layout_height="150dp"
+    android:layout_weight="0.2">
+  <ImageView 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:src="@drawable/haaa"/>  
+</LinearLayout>
+   
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:paddingTop="30dp" 
+        android:layout_weight="0.8">
+  <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical"
+      >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             >
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_edittext"
+                android:maxLength="8"
+                android:imeOptions="actionDone"
+                android:hint="ID:"
+                android:singleLine="true"
+                android:textSize="32sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_edittext"
+                android:inputType="textPassword"
+                android:maxLength="8"
+                android:hint="Password:"
+                android:singleLine="true"
+                android:textSize="32sp" />
+            
+        </TableRow>
+  <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <EditText
+                android:id="@+id/ip"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_edittext"
+                android:maxLength="15"
+                android:hint="IpAddress:"
+                android:singleLine="true"
+                android:textSize="32sp" />
+
+            
+        </TableRow>
+ 		
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+             >
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="Sign In"
+                android:textSize="30sp" />
+           
+        </TableRow>
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <!-- 
+             <Button
+                android:id="@+id/test1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="员工测试入口"
+                android:textSize="20sp" />
+             <Button
+                android:id="@+id/test2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="经理测试入口"
+                android:textSize="20sp" />
+            -->
+        </TableRow>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

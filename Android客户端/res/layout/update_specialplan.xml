@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+       <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/preference_single_item">
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/red"
+        android:background="@drawable/bg_edittext"
+        android:hint="type"
+        android:singleLine="true"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:textColor="@color/red"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
+        android:hint="model"
+        android:singleLine="true"
+        android:textSize="24sp" />
+    
+     <EditText
+        android:id="@+id/e3"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
+        android:hint="targetAmount"
+        android:singleLine="true"
+        android:textSize="24sp" />  
+        
+    <EditText
+        android:id="@+id/e4"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
+        android:hint="target"
+        android:singleLine="true"
+        android:textSize="24sp" />      
+    
+     <EditText
+        android:id="@+id/e5"
+        android:textColor="@color/red"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
+        android:hint="targetTime"
+        android:singleLine="true"
+        android:textSize="24sp" />
+      <EditText
+        android:id="@+id/e6"
+        android:textColor="@color/red"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bg_edittext"
+        android:hint="targetTime2"
+        android:singleLine="true"
+        android:textSize="24sp" />
+        </LinearLayout>
+<!--  
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/umfrom"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_selector"
+                android:text="From the Date" />
+
+            <TextView
+                android:id="@+id/umd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From the day:"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/umto"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_selector"
+                android:text="To the Date" />
+
+            <TextView
+                android:id="@+id/umt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="To the day:"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+        </TableRow>
+    </LinearLayout>
+-->
+    <Button
+        android:id="@+id/up_special"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_selector"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/del_special"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_selector"
+        android:text="Delete" />
+
+</LinearLayout>

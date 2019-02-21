@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/appmess" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/viewmysales"
+          android:layout_margin="4dp"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button_selector"
+            android:text="View" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/preference_single_item"
+            android:orientation="vertical" >
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/vmmfro"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/button_selector"
+                    android:text="From the Date:" />
+
+                <TextView
+                    android:id="@+id/vmmd"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="From the day:"
+                    android:textColor="@color/blue"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp" >
+
+                <Button
+                    android:id="@+id/vmmto"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/button_selector"
+                    android:text="To the Date  :" />
+
+                <TextView
+                    android:id="@+id/vmmt"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="To the day :"
+                    android:textColor="@color/blue"
+                    android:textSize="18sp" />
+            </TableRow>
+        </LinearLayout>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+            <TextView
+                android:id="@+id/vtype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Type"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/vmodel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Model"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/vimei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Imei"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/vpri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Price"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#66cc99"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/totalnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Totalnum" />
+
+            <TextView
+                android:id="@+id/totalpri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:text="Totalpri" />
+        </TableRow>
+
+        <ListView
+            android:id="@+id/vsales"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

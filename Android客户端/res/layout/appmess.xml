@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:padding="5dp"
+    android:orientation="vertical">
+<LinearLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:background="@drawable/headinfo">
+
+  <ImageView
+      android:padding="5dp"
+      android:layout_width="170dp"
+      android:layout_height="100dp"
+      android:src="@drawable/haaa" />
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:orientation="vertical"
+      android:padding="5dp" >
+
+      <TableRow 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <TextView 
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="18sp"
+              android:text="ID:"/>
+          <TextView 
+              android:paddingLeft="8dp"
+              android:id="@+id/id"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="power"
+              android:textSize="16sp"
+              android:textStyle="bold"/>
+          <Button 
+              android:id="@+id/specialTask"
+              android:layout_width="80dp"
+              android:text="Special"
+              android:background="@drawable/button_selector"
+              android:layout_height="25dp"
+             />
+      </TableRow>
+      <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="5dp"/>
+      <TableRow 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <TextView 
+              
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="18sp"
+              android:text="Date:"/>
+          <TextView 
+              android:paddingLeft="8dp"
+              android:id="@+id/date"
+              android:textSize="16sp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="2015/5/8"
+              android:textStyle="bold"/>
+      </TableRow>
+      <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="5dp"/>
+      <TableRow 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <TextView 
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="17sp"
+              android:text="Location:"/>
+          <TextView 
+              android:paddingLeft="8dp"
+              android:id="@+id/location"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Laoshan"
+              android:textSize="15sp"
+              android:textStyle="bold"/>
+      </TableRow>
+  </LinearLayout>   
+</LinearLayout>
+</LinearLayout>

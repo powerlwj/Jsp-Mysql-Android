@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+ <include 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     layout="@layout/appmess"/>
+ <!-- 十个按钮及其功能 -->
+<ScrollView 
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      >
+  <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical"
+      android:layout_margin="5dp"
+      android:paddingBottom="5dp">
+  <!--  
+   <Button 
+       android:id="@+id/add"
+       android:layout_marginTop="5dp"
+       android:background="@drawable/button_selector"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="Add Products"/>  
+   --> 
+       <Button 
+       android:id="@+id/updatecom"
+       android:layout_marginTop="5dp"
+       android:background="@drawable/button_selector"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="Upload Competitor Info"/> 
+
+       <Button
+           android:id="@+id/updatesale"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:background="@drawable/button_selector"
+           android:text="Upload Daily Sales" />
+ 
+       <Button 
+       android:id="@+id/viewmysales"
+       android:layout_marginTop="5dp"
+       android:background="@drawable/button_selector"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="View Daily Sales"/>
+       <!--
+       <Button 
+       android:id="@+id/message"
+       android:layout_marginTop="5dp"
+       android:background="@drawable/button_selector"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="View Messages"/> 
+       -->
+       <Button 
+       android:id="@+id/month"
+       android:layout_marginTop="5dp"
+       android:background="@drawable/button_selector"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="Check Monthly Targets Process"/> 
+       <Button 
+       android:id="@+id/special"
+       android:layout_marginTop="5dp"
+       android:background="@drawable/button_selector"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="Check Special Targets Process"/> 
+       <Button 
+       android:id="@+id/checkin"
+       android:layout_marginTop="5dp"
+       android:background="@drawable/button_selector"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="Clock In"/>  
+       <Button 
+       android:id="@+id/checkout"
+       android:layout_marginTop="5dp"
+       android:background="@drawable/button_selector"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="Clock Out"/>  
+       <Button 
+       android:id="@+id/change"
+       android:layout_marginTop="5dp"
+       android:background="@drawable/button_selector"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="Change Password"/>  
+       <Button 
+       android:id="@+id/logout"
+       android:layout_marginTop="5dp"
+       android:background="@drawable/button_selector"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="Sign Out"/>  
+        <Button 
+       android:id="@+id/settings"
+       android:layout_marginTop="5dp"
+       android:background="@drawable/button_selector"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="Settings"/>  
+    
+  </LinearLayout>
+   </ScrollView> 
+
+</LinearLayout>

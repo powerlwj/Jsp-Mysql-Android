@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/preference_single_item"
+        android:orientation="vertical" >
+
+        <Spinner
+            android:id="@+id/stype"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp" />
+
+        <Spinner
+            android:id="@+id/smodel"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/chart"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_selector"
+            android:text="Create the Line Chart" />
+
+        <Button
+            android:id="@+id/piechart"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_selector"
+            android:text="Create the Pie Chart" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/click"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/preference_single_item"
+                android:text="click here to choose  two models to compare "
+                android:textSize="22sp" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:background="@drawable/preference_single_item"
+                android:layout_height="wrap_content" >
+
+                <Spinner
+                    android:id="@+id/smodel2"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp" />
+
+                <Spinner
+                    android:id="@+id/smodel3"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp" />
+                <!--
+                <EditText
+                    android:id="@+id/smodel2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edittext" />
+
+                <EditText
+                    android:id="@+id/smodel3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edittext" />
+                -->
+            </TableRow>
+
+            <Button
+                android:id="@+id/barchart"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_selector"
+                android:text="Create the Bar Chart" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

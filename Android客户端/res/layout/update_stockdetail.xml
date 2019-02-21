@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/preference_single_item"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="model:"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/e1"
+                android:layout_width="fill_parent"
+                android:layout_height="43dp"
+                android:background="@drawable/bg_edittext"
+                android:hint="model"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="addtime:"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/e2"
+                android:layout_width="fill_parent"
+                android:layout_height="43dp"
+                android:background="@drawable/bg_edittext"
+                android:hint="addtime"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="txQuantity:"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/e4"
+                android:layout_width="fill_parent"
+                android:layout_height="43dp"
+                android:background="@drawable/bg_edittext"
+                android:hint="txQuantity"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="comment:"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/e3"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/bg_edittext"
+                android:gravity="top"
+                android:hint="comment"
+                android:maxLines="5"
+                android:singleLine="false"
+                android:textSize="20sp" />
+            <requestFocus />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="rxQuantity:"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/e5"
+                android:layout_width="fill_parent"
+                android:layout_height="43dp"
+                  android:textColor="@color/black"
+                android:background="@drawable/bg_edittext"
+                android:hint="rxQuantity"
+                android:singleLine="true"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="changeQuantity:"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/e6"
+                android:layout_width="fill_parent"
+                android:layout_height="43dp"
+                  android:textColor="@color/black"
+                android:background="@drawable/bg_edittext"
+                android:hint="changeQuantity"
+                android:singleLine="true"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="newTxQuantity:"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/e7"
+                android:layout_width="fill_parent"
+                android:layout_height="43dp"
+                  android:textColor="@color/black"
+                android:background="@drawable/bg_edittext"
+                android:hint="newTxQuantity"
+                android:singleLine="true"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="newRxQuantity:"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/e8"
+                android:layout_width="fill_parent"
+                android:layout_height="43dp"
+                android:layout_marginTop="4dp"
+                  android:textColor="@color/black"
+                android:background="@drawable/bg_edittext"
+                android:hint="newRxQuantity"
+                android:singleLine="true"
+                android:textSize="20sp" />
+        </TableRow>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/up_stock"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_selector"
+        android:text="Update  Stock  Change  Detail " />
+
+</LinearLayout>

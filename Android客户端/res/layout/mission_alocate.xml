@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/preference_single_item"
+            android:orientation="vertical" >
+
+            <Spinner
+                android:id="@+id/mtype"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp" />
+
+            <Spinner
+                android:id="@+id/mmodel"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp" >
+            </Spinner>
+
+            <Spinner
+                android:id="@+id/mstuff"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp" >
+                
+            </Spinner>
+        </LinearLayout>
+         <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/preference_single_item"
+        android:orientation="vertical" >
+        
+
+        <EditText
+            android:id="@+id/price1"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="Target Amount($):"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/missionnumber"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="Target Quantity"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/price2"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="Target Amount($)"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textSize="24sp" />
+ </LinearLayout>
+        <Button
+            android:id="@+id/alocate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_selector"
+            android:text="Allocate this Month&apos;s Target"
+            android:textSize="20sp" />
+   
+
+</LinearLayout>

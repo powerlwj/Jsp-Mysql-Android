@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<TableRow 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="10dp">
+    <TextView 
+        android:id="@+id/ttype"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:textColor="@color/blue"
+        android:textSize="14sp"
+        android:layout_weight="1"
+        android:gravity="center"/>
+    <TextView 
+        android:id="@+id/tmodel"
+        android:textSize="14sp"
+        android:textColor="@color/blue"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="Model"
+        android:layout_weight="1"
+        android:gravity="center"/>
+    <TextView 
+        android:id="@+id/ttarget"
+        android:textSize="14sp"
+        android:textColor="@color/blue"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="Target"
+        android:layout_weight="1"
+        android:gravity="center"/>
+    <TextView 
+        android:id="@+id/tachieved"
+        android:textColor="@color/blue"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="Achieved"
+        android:textSize="14sp"
+        android:layout_weight="1"
+        android:gravity="center"/>
+</TableRow>    
+
+</LinearLayout>

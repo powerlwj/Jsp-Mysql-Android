@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- 没有活的焦点的状态,就是当前没有输入的编辑框 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"> 
+    <solid android:color="#FFFFFF" /> 
+    <corners android:radius="3dip"/>
+    <stroke  
+        android:width="1dip"  
+        android:color="@color/gray" /> 
+</shape>
+

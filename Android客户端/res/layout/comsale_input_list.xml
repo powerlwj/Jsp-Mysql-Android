@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="8dp" 
+    >
+    <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+  <LinearLayout 
+      android:paddingLeft="15dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical"
+      android:layout_weight="0.55">
+    <TextView 
+        android:id="@+id/brand_name"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="brand"/>
+    <TextView 
+        android:id="@+id/model_name"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="model"/>  
+  </LinearLayout>
+  
+    <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_weight="0.45">
+
+        <EditText
+            android:id="@+id/stock_number"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:textColor="@color/red"
+            android:layout_margin="2dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/bg_edittext"
+            >
+
+            <requestFocus />
+        </EditText>
+      
+  </LinearLayout>
+</TableRow>
+</LinearLayout>

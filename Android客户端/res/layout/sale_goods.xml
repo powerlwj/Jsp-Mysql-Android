@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/appmess" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/upload_sales"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_selector"
+            android:text="Upload The Sales" />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <LinearLayout 
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/preference_single_item">
+                <Spinner
+                    android:id="@+id/type"
+                    android:layout_margin="5dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp" />
+
+                <Spinner
+                    android:id="@+id/model"
+                    android:layout_margin="5dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp" />
+                </LinearLayout>
+                 <EditText 
+                    android:id="@+id/price"
+                    android:layout_margin="5dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:hint="Price"
+                    android:maxEms="10"
+                    android:singleLine="true"
+                    android:inputType="number"
+                    android:textSize="26sp"
+                    android:background="@drawable/bg_edittext"/>
+
+                <Button
+                    android:id="@+id/scan_imei"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/button_selector"
+                    android:text="Scan the IMEI" />
+
+                <EditText 
+                    android:id="@+id/imei"
+                    android:layout_margin="5dp"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bg_edittext"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>
